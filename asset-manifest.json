@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/maisonbellucci/static/css/main.049d8028.css",
-    "main.js": "/maisonbellucci/static/js/main.d9d131f3.js",
+    "main.css": "/maisonbellucci/static/css/main.14bf0f06.css",
+    "main.js": "/maisonbellucci/static/js/main.290620cb.js",
     "static/js/453.b3108be7.chunk.js": "/maisonbellucci/static/js/453.b3108be7.chunk.js",
     "static/media/header2.jpeg": "/maisonbellucci/static/media/header2.19dcdbe5b4f7e1c815ec.jpeg",
     "index.html": "/maisonbellucci/index.html",
-    "main.049d8028.css.map": "/maisonbellucci/static/css/main.049d8028.css.map",
-    "main.d9d131f3.js.map": "/maisonbellucci/static/js/main.d9d131f3.js.map",
+    "main.14bf0f06.css.map": "/maisonbellucci/static/css/main.14bf0f06.css.map",
+    "main.290620cb.js.map": "/maisonbellucci/static/js/main.290620cb.js.map",
     "453.b3108be7.chunk.js.map": "/maisonbellucci/static/js/453.b3108be7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.049d8028.css",
-    "static/js/main.d9d131f3.js"
+    "static/css/main.14bf0f06.css",
+    "static/js/main.290620cb.js"
   ]
 }
