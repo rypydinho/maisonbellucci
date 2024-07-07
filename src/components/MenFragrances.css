@@ -1,0 +1,112 @@
+/* src/components/MenFragrances.css */
+.men-fragrances {
+    text-align: center;
+    margin: 4em 0;
+    font-family: 'Fustat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .men-fragrances h2 {
+    font-family: 'Fustat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: #36454F; 
+    font-family: 'Playfair Display', serif; /* Elegant font */
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: max(2em, 5vw); /* Consistent gap */
+    justify-content: center;
+  }
+  
+  .product-card {
+    background-color: #FFF8DC; /* Light Ivory */
+    border: 1px solid #E5E4E2; /* Platinum */
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: relative; 
+    overflow: hidden; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: filter 0.3s; /* Nice and Smooth transition for blur */
+  }
+  
+  .product-card:hover img {
+    filter: blur(5px); /* sick Blur effect on hover */
+  }
+  
+  .product-name-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: #CBA135; /* Soft Gold */
+    font-family: 'Fustat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    opacity: 0;
+    transition: opacity 0.3s; 
+  }
+  
+  .product-card:hover .product-name-overlay {
+    opacity: 1; 
+  }
+  
+  .product-card p {
+    margin: 1em 0;
+    font-size: 1.2em;
+    color: #36454F; /* Charcoal */
+    font-family: 'Fustat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .product-card button {
+    font-family: 'Fustat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0.5em 1.5em;
+    background: #046307; /* Emerald Green */
+    color: #CBA135;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s;
+    transition: background-color 0.3s, transform 0.3s; /* a Smooth hover effect */
+  }
+  
+  .product-card button:hover {
+    background: #034f04;
+    background-color: #003d44; 
+    transform: scale(1.05); /* enlarge for when ur hovering */
+  }
+  
+  
+  
+  

@@ -1,0 +1,28 @@
+/* src/components/CarouselSection.css */
+.carousel-section {
+    margin: 4em 0;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+  }
+  
+  .carousel-section h2 {
+    padding-top: 20px;
+    margin-bottom: 1em; /* Space between heading and carousel */
+    font-size: 2em;
+    color: #CBA135;
+    font-family: 'Fustat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+  }
+  
+  .carousel .slide img {
+    width: 100%;
+    max-width: 600px; /* Adjust max width as needed */
+    height: auto;
+    max-height: 400px; /* Adjust max height as needed */
+    margin: 0 auto;
+  }
+  
+    
+  
